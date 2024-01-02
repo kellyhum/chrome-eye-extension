@@ -5,5 +5,13 @@
     "version": "1.0",
     "action": {
       "default_popup": "./pages/popup.html"
-    }
+    },
+    "content_scripts":[
+        {
+            "js": ["./scripts/content.js"],
+            "matches": [
+                "https://*/"
+            ]
+        }
+    ]
   }
