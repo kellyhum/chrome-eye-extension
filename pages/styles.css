@@ -1,0 +1,46 @@
+:root {
+    --light: #fff;
+    --dark: #1E2019;
+    --main: #F6BD60;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1rem;
+    width: 10rem;
+    height: auto;
+    font-family:"Lato", sans-serif;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.toggle_button {
+    background-color: var(--main);
+    width: 2rem;
+    height: 1rem;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.slider {
+    border-radius: 50%;
+}
