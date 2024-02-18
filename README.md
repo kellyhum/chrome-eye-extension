@@ -7,6 +7,5 @@ todos:
 - figure out the difference between content scripts and background.js
 - either
   - flesh out the ui
-  - get a timer working
   - figure out how to block the active tab/any website the user goes to
   - a combination of the above
