@@ -12,13 +12,14 @@
 
 body {
     padding: 1rem;
-    width: 10rem;
-    height: auto;
+    width: 12rem;
+    height: 16rem;
     font-family:"Lato", sans-serif;
     font-size: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 h1, h2, h3 {
@@ -43,4 +44,20 @@ input[type=checkbox] {
 
 .slider {
     border-radius: 50%;
+}
+
+.set_timer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--main);
+    border: 1px solid var(--dark);
+    font-size: large;
 }
